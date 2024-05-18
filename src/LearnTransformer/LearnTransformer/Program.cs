@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-
+﻿using LearnTransformer;
+var loader = new DataLoader("tiny-shakespeare.txt");
+loader.Load();
