@@ -1,5 +1,8 @@
 from micrograd.engine import Value
 
+if 1 == 1:
+    print("foo")
+
 a = Value(-4)
 b = Value(2)
 c = a + b
